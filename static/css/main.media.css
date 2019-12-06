@@ -1,0 +1,66 @@
+@media screen and (max-width: 415px) {
+	.w {
+		width: 100%;
+		margin:0 auto;
+	}
+	.tst_top {
+		height: 40px;
+	}
+	.tst_top .logo img {
+		width: 30px;
+		vertical-align:middle;
+	}
+	.tst_top .nav {
+		display: none;
+	}
+	.tst_banner .carousel-indicators {
+		bottom: 30px;
+	}
+	.tst_banner .carousel-indicators li {
+		width: 12px;
+		height: 12px;
+	}
+	.tst_banner .news .news_title span {
+		font-size: 12px;
+	}
+	.tst_banner .news #breakingnews .l li {
+		max-width: 300px;
+	}
+	.tst_main .product_list > ul > li {
+		width: 414px;
+		margin:0px;
+	}
+	.tst_main .product_list > ul > li:nth-child(2) {
+		margin: 0px;
+	}
+	.tst_main .product_list > ul > li > div {
+		width: 414px;
+	}
+	.tst_main .product_list li > div {
+		background-repeat: round;
+	}
+	.tst_banner .news ul {
+		left: 70px!important;
+	}
+	.test_case {
+		height: 720px;
+	}
+	.tst_main {
+		height: 1520px;
+	}
+	.tst_main .product_list > ul > li {
+		position: relative;
+		margin: 0 auto;
+	}
+	.tst_foot {
+		height: 900px;
+	}
+	.tst_foot .foot_top .foot_top_list > li{
+		margin-left: 50px;
+		text-align: center;
+	}
+	.tst_foot .foot_top .foot_top_list > li:first-child {
+		margin-left: 100px;
+		text-align: center;
+	}
+}
